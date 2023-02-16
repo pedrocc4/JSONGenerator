@@ -22,15 +22,17 @@ public class Proceso {
             String[] json = fileContent.split("},");
             for (int i = 0; i < json.length; i++) {
                 try {
-                    File file = new File("src/main/resources/consulta/holding/codigo/ejecucion" + (i + 1) + ".json");
+                    File file = new File("src/main/resources/consulta/division/codigo/codigoDivision" + (i + 1) + ".json");
                     FileWriter myWriter = new FileWriter(file);
                     String escritura = json[i].substring(json[i].indexOf("{"), json[i].length() - 2);
                     escritura += "}";
-                    escritura = escritura.replace("%", "0");
+                    escritura = escritura.replace("%", "6");
+                    escritura = escritura.replace("]}", "");
                     myWriter.write(escritura);
                     myWriter.close();
                 } catch (IOException e) {
-                    System.err.println("Errrororororo");
+
+                    System.err.println("Errrororororo: " + e.getLocalizedMessage());
                 }
             }
         } catch (IOException e) {

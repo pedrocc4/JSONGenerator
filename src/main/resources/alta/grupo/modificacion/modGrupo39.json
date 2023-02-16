@@ -1,0 +1,13 @@
+{
+    "entidad": "01",
+    "grupo": {
+      "codigoUnico": "",
+      "fechaFinVigencia": "",
+      "fechaInicioVigencia": "2016-01-08 06:40:35",
+      "nombre": "JMETER-38",
+      "origen": "CRM",
+      "pais": "ES",
+      "paisPropietario": "ES",
+      "usuario": "JMETERTEST"
+    }
+}

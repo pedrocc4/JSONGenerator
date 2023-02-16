@@ -1,0 +1,13 @@
+{
+    "entidad": "00",
+    "holding": {
+      "codigoUnico": "",
+      "fechaFinVigencia": "",
+      "fechaInicioVigencia": "2022-07-09 12:18:54",
+      "nombre": "JMETER-55",
+      "origen": "CRM",
+      "pais": "ES",
+      "paisPropietario": "ES",
+      "usuario": "JMETERTEST"
+    }
+}

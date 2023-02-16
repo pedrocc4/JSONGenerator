@@ -1,0 +1,17 @@
+{
+    "entidad": "02",
+    "cliente": {
+      "pais": "ES",
+      "codIdFiscal": 90,
+      "codigoUnico": "",
+      "nombre": "JMETER-90",
+      "nombreExtendido": "JMETER-90",
+      "tipoIdFiscal": "ES-9",
+      "paisPropietario": "ES",
+      "codigoUnicoDireccion": "PT0500230212",
+      "fechaInicioVigencia": "2016-09-01 11:28:03",
+      "flagProveedor": "S",
+      "usuario": "JMETERTEST",
+      "origen": "CRM"
+    }
+}

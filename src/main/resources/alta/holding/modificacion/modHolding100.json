@@ -1,0 +1,13 @@
+{
+    "entidad": "00",
+    "holding": {
+      "codigoUnico": "",
+      "fechaFinVigencia": "",
+      "fechaInicioVigencia": "2020-03-09 07:59:10",
+      "nombre": "JMETER-99",
+      "origen": "CRM",
+      "pais": "ES",
+      "paisPropietario": "ES",
+      "usuario": "JMETERTEST"
+    }
+  }

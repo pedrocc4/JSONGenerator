@@ -1,0 +1,13 @@
+{
+    "entidad": "05",
+    "direccion": {
+      "codigoUnico": "",
+      "codigoPostal": 1,
+      "nivel1": "ES",
+      "nivel2": "ES013",
+      "nombreVia": "JMETER-26",
+      "paisPropietario": "AR",
+      "usuario": "JMETERTEST",
+      "origen": "CRM"
+    }
+}

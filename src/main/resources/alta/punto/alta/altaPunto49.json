@@ -1,0 +1,12 @@
+{
+    "entidad": "04",
+    "punto": {
+      "codigoUnico": "",
+      "codigoUnicoCliente": "ES0200000003",
+      "codigoUnicoCentro": "ES0300000101",
+      "nombre": "JMETER-48",
+      "paisPropietario": "ES",
+      "usuario": "JMETERTEST",
+      "origen": "CRM"
+    }
+}

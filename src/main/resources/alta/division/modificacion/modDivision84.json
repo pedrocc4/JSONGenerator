@@ -1,0 +1,10 @@
+{
+    "entidad": "06",
+    "division": {
+      "codigoUnico": "",
+      "nombre": "JMETER-83",
+      "codigoUnicoCliente": "ES0200000002",
+      "usuario": "JMETERTEST",
+      "origen": "SIP"
+    }
+}

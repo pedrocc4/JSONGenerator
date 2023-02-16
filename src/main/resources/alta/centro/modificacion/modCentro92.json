@@ -1,0 +1,14 @@
+{
+    "entidad": "03",
+    "centro": {
+      "codigoUnico": "",
+      "codigoUnicoCliente": "ES0200000012",
+      "codigoUnicoDireccion": "ES0500000191",
+      "nombre": "JMETER-MOD",
+      "paisPropietario": "ES",
+      "flagUnifica": false,
+      "pais": "",
+      "usuario": "JMETERTEST",
+      "origen": "CRM"
+    }
+}

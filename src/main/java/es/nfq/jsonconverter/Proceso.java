@@ -49,7 +49,6 @@ public class Proceso {
         String siguienteParteRuta = " and geografia=EMEA&outputView=TablonEBSView";
         long random1 = 22510986;
         long random2 = 22192236;
-        String todos = "";
         StringBuilder all = new StringBuilder();
         Random random = new Random();
         for (int i = 0; i < 200; i++) {
@@ -91,9 +90,10 @@ public class Proceso {
             System.out.println(all);
             System.out.println(allDos);
             try {
-                File file1 = new File("src/main/resources/tablon/todos/idServer.json");
-                FileWriter myWriter1 = new FileWriter(file1);
-                myWriter1.write(all.toString());
+                File file2 = new File("src/main/resources/tablon/todos/idServer.json");
+                FileWriter myWriter2 = new FileWriter(file2);
+                myWriter2.write(all.toString());
+                myWriter2.close();
             } catch (IOException e) {
                 System.err.println("Errrororororo: " + e.getLocalizedMessage());
             }
@@ -101,6 +101,7 @@ public class Proceso {
                 File file1 = new File("src/main/resources/tablon/todos/ebsServer.json");
                 FileWriter myWriter1 = new FileWriter(file1);
                 myWriter1.write(allDos.toString());
+                myWriter1.close();
             } catch (IOException e) {
                 System.err.println("Errrororororo: " + e.getLocalizedMessage());
             }
